@@ -1,45 +1,71 @@
-# 📈 Sales Performance Analysis (End-to-End Project using Excel, SQL & Power BI)
+# 📊 Sales Performance Analysis – Excel Dashboard Project
 
 ### 🎯 Objective  
-To analyze company sales data and evaluate performance metrics of sales executives and regions, with the goal of identifying top performers, improvement areas, and business growth opportunities.
+To evaluate sales executive performance and regional contributions using an interactive Excel dashboard that tracks total sales, achievement %, and target gaps — enabling data-driven sales management decisions.
 
 ---
 
-### ⚙️ Tech Stack  
-- **Excel** – Data cleaning, KPI calculation, and dashboard creation  
-- **SQL** – Data extraction, filtering, and transformation  
-- **Power BI** – Interactive data visualization and executive summary dashboard  
+### ⚙️ Tools & Techniques  
+- **Microsoft Excel (Advanced)** – Dashboard Design, Data Cleaning, KPI Calculation  
+- **Formulas Used:** SUMIFS, IF, AVERAGE, VLOOKUP, Conditional Formatting  
+- **Features Used:** Pivot Tables, Charts, Slicers, and Macros (Automation)  
 
 ---
 
-### 🧩 Project Highlights  
+### 🧩 Dataset Overview  
+**Sheets:**  
+- `RAW DATA` → Sales details for each executive (daily performance)  
+- `DASHBOARD` → Aggregated view with interactive visuals  
 
-1. **Performance Ranking:**  
-   - Identified **Top 5 and Bottom 5 Sales Executives** based on sales achievement and target completion.  
-   - Highlighted performance trends and improvement opportunities.
+**Columns:**  
+`Emp Code`, `Sales Executive`, `Region`, `Day1–Day5`, `Total Sales`, `Target`, `Target Hit %`, `Away From Target %`
 
-2. **Target vs Achievement Analysis:**  
-   - Compared individual performance against assigned targets.  
-   - Calculated **achievement percentage** and analyzed variations across sales periods.
+---
 
-3. **Regional Analysis:**  
-   - Conducted region-wise sales performance evaluation to uncover potential growth zones.  
-   - Determined key areas where strategic focus could increase revenue.
+### 📈 Key Analysis  
+1. **Performance Tracking:**  
+   - Calculated total sales across 5 working days.  
+   - Compared each executive’s achievement against a target of 500 units.  
+   - Derived both **Target Hit %** and **Away From Target %** metrics.  
 
-4. **Dashboard Development:**  
-   - Built interactive dashboards in **Excel and Power BI** for performance tracking and quick business insights.  
-   - Visualized KPIs such as revenue growth, achievement %, and region-wise sales contribution.
+2. **Top & Bottom Performers:**  
+   - Identified **Top 5 performers** exceeding 70% target achievement.  
+   - Highlighted **Bottom 5 performers** below 50% of target.  
 
-5. **Data-Driven Insights:**  
-   - Recommended strategies to improve underperforming regions and enhance sales team motivation.  
-   - Delivered reports that improved **decision-making efficiency** at management level.
+3. **Regional Insights:**  
+   - Grouped executives by **Region (Mumbai, Delhi, Nagpur, Chennai, Pune)**.  
+   - Compared average achievement % by region to find high-growth areas.  
+
+4. **Dashboard Design:**  
+   - Created **interactive Excel dashboard** with:  
+     - KPI cards for Total Sales, Average Achievement %, and Gap %  
+     - Region-wise and Executive-wise bar charts  
+     - Slicers for filtering by region or employee  
+   - Added **conditional formatting** to highlight underperformers automatically.  
 
 ---
 
 ### 📊 Key Insights  
-✅  Top performers exceeded targets by up to **30%** while bottom performers fell short by **15–25%**.  
-✅  **West and South regions** contributed the most to revenue growth.  
-✅  Recommended reallocation of resources and incentives for balanced team productivity.
+✅ Executives in **Mumbai and Nagpur** regions achieved the highest average sales (>65%).  
+✅ Several sales executives achieved >75% of their targets, indicating strong top performers.  
+✅ **Delhi region** had the largest performance gap, showing need for improved focus or training.  
+✅ Dashboard allows instant visibility into top/bottom performers and regional trends.
 
 ---
+
+### 🧠 Learnings  
+- Strengthened skills in **Excel automation, data visualization, and KPI analysis**.  
+- Learned to translate sales data into actionable business insights.  
+- Designed a management-friendly dashboard for quick decision-making.  
+
+
+---
+
+### 🔗 Author  
+**Jaydev Chole**  
+[LinkedIn](https://www.linkedin.com/in/jaydev-chole-b3313b327) 
+| [GitHub](https://github.com/jaydevchole)
+
+---
+
 
